@@ -1,4 +1,4 @@
-package om.example.springpetclinic.services;
+package com.example.springpetclinic.services;
 
 import java.util.Set;
 
