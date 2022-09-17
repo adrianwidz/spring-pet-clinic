@@ -1,12 +1,12 @@
 package com.example.springpetclinic.services.map;
 
-import com.example.springpetclinic.model.Owner;
 import com.example.springpetclinic.model.Pet;
 import com.example.springpetclinic.services.CrudService;
+import com.example.springpetclinic.services.PetService;
 
 import java.util.Set;
 
-public class PetServiceMao extends AbbstractMapService<Pet, Long> implements CrudService<Pet, Long> {
+public class PetServiceMap extends AbbstractMapService<Pet, Long> implements PetService {
 
     @Override
     public Set<Pet> findAll() {
