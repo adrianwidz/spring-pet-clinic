@@ -32,6 +32,6 @@ public class PetServiceMap extends AbbstractMapService<Pet, Long> implements Pet
 
     @Override
     public Pet save(Pet object) {
-        return super.save(object.getId(), object);
+        return super.save(object);
     }
 }
