@@ -4,7 +4,7 @@ import com.example.springpetclinic.model.BaseEntity;
 
 import java.util.*;
 
-public abstract class AbbstractMapService<T extends BaseEntity, ID extends Long> {
+public abstract class AbbstractServiceMap<T extends BaseEntity, ID extends Long> {
 
     protected Map<Long, T> map = new HashMap<>();
 
