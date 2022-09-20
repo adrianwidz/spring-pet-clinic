@@ -1,11 +1,11 @@
 package com.example.springpetclinic.services.map;
 
 import com.example.springpetclinic.model.Speciality;
-import com.example.springpetclinic.services.SpecialitiesService;
+import com.example.springpetclinic.services.SpecialityService;
 
 import java.util.Set;
 
-public class SpecialityMapService extends AbbstractMapService<Speciality, Long> implements SpecialitiesService {
+public class SpecialityMapService extends AbbstractMapService<Speciality, Long> implements SpecialityService {
     @Override
     public Set<Speciality> findAll() {
         return super.findAll();
